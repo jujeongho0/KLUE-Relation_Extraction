@@ -74,7 +74,8 @@ def main(args):
 
 
   model = Model2(MODEL_NAME)
-  model.model.resize_token_embeddings(tokenizer.vocab_size + added_token_num)
+  model.model_config.vocab_size = len(tokenizer)
+  model.model.resize_token_embeddings(len(tokenizer))
   state_dict = torch.load(os.path.join(f'./best_model_14', 'pytorch_model.bin'))
 
   model.load_state_dict(state_dict)
