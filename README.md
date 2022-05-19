@@ -218,3 +218,7 @@
    
     - Private(11팀 中 3등)
       ![1 (16)](https://user-images.githubusercontent.com/62659407/162708852-9bfdb2bf-649d-427a-98d2-d471a7861704.png)
+      
+9. 프로토타입 (streamlit)
+    ![GIF 2022-05-19 오후 1-24-24](https://user-images.githubusercontent.com/62659407/169205246-4a4ae204-f2a3-4225-843b-35b6aa19f128.gif)
+
