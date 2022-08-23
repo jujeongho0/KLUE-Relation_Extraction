@@ -200,14 +200,13 @@
 
 7. Ensemble
     - **Soft Voting**
-        - 리더보드 상위 4개 모델 : **76.7338% (SOTA + 1%)**
         - 5개의 모델 : 75.5%
             - AutoModelForSequenceClassification : 74.9%
             - FC : 74.3%
             - BiLSTM : 75.6%
             - BiGRU : 75.1%
             - BiGRU + Multi-Head-Attention + BiGRU : 74.4%
-        - 상위 3개의 모델 : 75.7%
+        - 상위 3개의 모델 : **76.7338% (SOTA + 1%)**
             - AutoModelForSequenceClassification : 74.9%
             - BiLSTM : 75.6%
             - BiGRU : 75.1%
