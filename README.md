@@ -206,7 +206,7 @@
             - BiLSTM : 75.6%
             - BiGRU : 75.1%
             - BiGRU + Multi-Head-Attention + BiGRU : 74.4%
-        - 상위 3개의 모델 : **76.7338% (SOTA + 1%)**
+        - 상위 3개의 모델 : **76.7338%**
             - AutoModelForSequenceClassification : 74.9%
             - BiLSTM : 75.6%
             - BiGRU : 75.1%
